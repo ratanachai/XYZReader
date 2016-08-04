@@ -21,6 +21,13 @@
     <color name="blue_500">#2196F3</color>
     <color name="blue_300">#64B5F6</color>
     <color name="pink_500">#E91E63</color>
+
+    <color name="deep_orange_500">#FF5722</color>
+    <color name="deep_orange_700">#E64A19</color>
+    <color name="light_green_A700">#64DD17</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+
     <color name="photo_placeholder">#ccc</color>
     <color name="gray_800">#424242</color>
     <color name="gray_500">#9E9E9E</color>
