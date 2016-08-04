@@ -8,5 +8,16 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="title_text">Mysteries of the Keng</string>
+    <string name="subtitle_text">Jun 20, 2021 by Keng Sombat</string>
+    <string name="body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        placerat accumsan sollicitudin. Suspendisse mi diam, mattis ac dapibus a, ultricies eget
+        libero. Proin vitae orci nec diam dignissim aliquam. Cum sociis natoque penatibus et magnis
+        dis parturient montes, nascetur ridiculus mus. Quisque ut pellentesque tellus. Suspendisse
+        potenti. Duis sit amet hendrerit elit. Aliquam dapibus ipsum ac nulla semper, at varius
+        orci cursus. Sed non bibendum augue. Morbi imperdiet mi at dui vehicula consequat nec eu
+        eros. Nulla dolor lorem, interdum vel velit nec, vestibulum varius nisl. Vivamus justo quam,
+        aliquam quis purus eget, tempor porttitor tellus.</string>
+
 
 </resources>

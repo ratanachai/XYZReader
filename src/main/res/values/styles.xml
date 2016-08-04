@@ -20,10 +20,20 @@
         <item name="colorPrimary">@color/blue_800</item>
         <item name="colorPrimaryDark">@color/blue_900</item>
         <item name="colorAccent">@color/pink_500</item>
+        <item name="android:textColorPrimary">@color/gray_800</item>
+        <item name="android:textColorSecondary">@color/gray_500</item>
     </style>
 
-    <!--<style name="AppTheme.Detail">-->
+    <style name="AppTheme.Detail">
         <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
-    <!--</style>-->
+    </style>
+    <!-- Shared Attributes for Title and subtitle in List item-->
+    <style name="ListItemTextView">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
 </resources>
