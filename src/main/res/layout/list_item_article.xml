@@ -34,6 +34,7 @@
             android:paddingBottom="4dp"
             android:maxLines="4"
             android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
             tools:text="@string/title_text"
             />
         <TextView
