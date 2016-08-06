@@ -36,4 +36,7 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+    <style name="CollapsingToolbarLayoutExpandedTextStyle" parent="AppTheme">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
 </resources>
