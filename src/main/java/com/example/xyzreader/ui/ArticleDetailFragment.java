@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -106,6 +107,9 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 
         // Setup Up button
+        CollapsingToolbarLayout cToolbar = (CollapsingToolbarLayout) mRootView.findViewById(R.id.c_toolbar);
+        cToolbar.setTitle("Test Title");
+
         setHasOptionsMenu(true);
         Toolbar toolBar = (Toolbar) mRootView.findViewById(R.id.tool_bar);
         toolBar.setTitle("");
@@ -114,7 +118,7 @@ public class ArticleDetailFragment extends Fragment implements
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
+//        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
@@ -139,7 +143,6 @@ public class ArticleDetailFragment extends Fragment implements
         // as you specify a parent activity in AndroidManifest.xml.
         switch (item.getItemId()){
             case android.R.id.home:
-                Log.v("=================","================");
                 getActivity().finish();
                 return true;
         }
