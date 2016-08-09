@@ -128,7 +128,7 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
-        bindViews();
+        //bindViews(); It will be called in the end of onLoadFinished(), so call here might get Empty data
         updateStatusBar();
         return mRootView;
     }
