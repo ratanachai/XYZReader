@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
-                <item name="colorPrimary">@color/deep_orange_500</item>
-                <item name="colorPrimaryDark">@color/deep_orange_700</item>
-                <item name="colorAccent">@color/light_green_A700</item>
-                <item name="android:textColorPrimary">@color/primary_text</item>
-                <item name="android:textColorSecondary">@color/secondary_text</item>
+        <style name="AppTheme.Detail">
                 <item name="android:windowTranslucentStatus">true</item>
         </style>
+
 </resources>
