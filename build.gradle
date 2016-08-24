@@ -17,6 +17,7 @@ android {
     buildToolsVersion "24"
 
     defaultConfig {
+        applicationId "com.ratanachai.xyzreader"
         minSdkVersion 16
         targetSdkVersion 24
     }

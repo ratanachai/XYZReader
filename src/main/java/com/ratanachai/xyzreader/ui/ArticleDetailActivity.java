@@ -1,4 +1,4 @@
-package com.example.xyzreader.ui;
+package com.ratanachai.xyzreader.ui;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -15,9 +15,9 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
-import com.example.xyzreader.data.ItemsContract;
+import com.ratanachai.xyzreader.R;
+import com.ratanachai.xyzreader.data.ArticleLoader;
+import com.ratanachai.xyzreader.data.ItemsContract;
 
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.

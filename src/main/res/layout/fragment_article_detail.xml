@@ -93,7 +93,7 @@
 
         <!-- Custom View to be able to set android:maxWidth;
         on Device Width > 800, it will have margin left/right right CardView-->
-        <com.example.xyzreader.ui.MaxWidthLinearLayout
+        <com.ratanachai.xyzreader.ui.MaxWidthLinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                 tools:text="@string/body_text"
                 />
 <!--                     style="?android:attr/textAppearanceMedium" -->
-        </com.example.xyzreader.ui.MaxWidthLinearLayout>
+        </com.ratanachai.xyzreader.ui.MaxWidthLinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.design.widget.FloatingActionButton
